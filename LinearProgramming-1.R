@@ -1,3 +1,5 @@
+# 18523088 (Faiq) -18523110 (Faris) 
+
 #Solve the following problem graphically:
 #  Minimize and maximize Z = 3x + 9y
 #  Subject to the constraints:
