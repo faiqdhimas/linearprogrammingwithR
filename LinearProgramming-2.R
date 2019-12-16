@@ -29,15 +29,3 @@ lp("max",f.obj,f.con,f.dir,f.rhs)
 
 # Variables final values, Titik Maksimum
 lp("max",f.obj,f.con,f.dir,f.rhs)$solution
-
-# Sensitivities
-lp("max",f.obj,f.con,f.dir,f.rhs,compute.sens=TRUE)$sens.coef.from
-lp("max",f.obj,f.con,f.dir,f.rhs,compute.sens=TRUE)$sens.coef.to
-
-# Dual Values (first dual of the constraints and then dual of the variables)
-# Duals of the constraints and variables are mixed
-lp("max",f.obj,f.con,f.dir,f.rhs,compute.sens=TRUE)$duals
-
-# Duals lower and upper limits
-lp("max",f.obj,f.con,f.dir,f.rhs,compute.sens=TRUE)$duals.from
-lp("max",f.obj,f.con,f.dir,f.rhs,compute.sens=TRUE)$duals.to
